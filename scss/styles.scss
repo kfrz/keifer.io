@@ -84,13 +84,18 @@ $text: #74808a;
 */
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 
     &.active {
         overflow: hidden;
         z-index: -1;
     }
+}
+
+h1, h2, h3{
+  font-family: "Rokkitt";
+  font-weight: 200;
 }
 
 // No JS styles
